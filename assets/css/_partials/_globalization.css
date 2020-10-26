@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+.not-home-page{
+  margin-top: 70px;
+}
+
+
+.text{
+  font-family: $default-font;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 15px 30px;
+  color: $text-color;
+  margin: 0;
+  &.dark{
+    color: $heading-color;
+    padding: 10px 15px;
+    span{
+      color: $text-color;
+    }
+  }
+}
+.wrapper{
+  padding: 0 50px;
+  @mixin at-lg-mobile{
+    padding: 0 100px;
+  }
+}
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.content-section{
+  padding-bottom: 30px;
+}

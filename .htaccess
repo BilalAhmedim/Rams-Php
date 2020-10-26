@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^About index.php
+RewriteRule ^Contact index.php
+RewriteRule ^Home index.php
+RewriteRule ^Login index.php
+
+# RewriteEngine or RewriteRule Using PHP
+
+
+ErrorDocument 404 /404.html
