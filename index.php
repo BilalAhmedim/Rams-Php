@@ -5,7 +5,7 @@
 include 'view/base.php';
 
 //if ($_SERVER['REQUEST_URI'] === '/Login') {
-//    include 'view/templates/login.html';
+//    include 'view/templates/login.php';
 //} elseif ($_SERVER['REQUEST_URI'] === '/Home' || $_SERVER['REQUEST_URI'] === '/') {
 //    include 'view/base.php';
 //}elseif($_SERVER["REQUEST_URI"] == '/Contact'){

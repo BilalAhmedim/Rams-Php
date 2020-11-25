@@ -11,11 +11,11 @@
     </div>
     <nav class="primary-nav primary-nav--float-right">
         <ul class="primary-nav__item">
-            <li><a href='<?php echo "/Home" ?>'>Home</a></li>
-            <li><a href='<?php echo "/" ?>'>Products</a></li>
-            <li><a href='<?php echo "/About" ?>'>About</a></li>
-            <li><a href='<?php echo "/Contact" ?>'>Contact Us</a></li>
-            <li><a href='<?php echo "/Login" ?>'>Login</a></li>
+            <li><a href="/Home">Home</a></li>
+            <li><a href="/">Products</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Contact">Contact Us</a></li>
+            <li><a href="/Login">Login</a></li>
         </ul>
     </nav>
 

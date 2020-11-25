@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_URI"] == '/Contact') {
 } elseif ($_SERVER["REQUEST_URI"] == '/' || $_SERVER["REQUEST_URI"] == '/Home') {
     include 'view/templates/home.html';
 } elseif ($_SERVER["REQUEST_URI"] == '/Login') {
-    include 'view/templates/login.html';
+    include 'view/templates/login.php';
 } else {
     include '404.html';
 }
