@@ -7,13 +7,13 @@ class connect
     private string $password;
     private string $database;
 
-    function __construct($host, $user, $password, $database)
+    function __construct($host, $user, $password, $database, $query)
     {
         $this->host = $host;
         $this->user = $user;
         $this->password = $password;
         $this->database = $database;
-        $this->connection();
+        $this->connection($query);
     }
 
     protected function connection($query)
@@ -26,6 +26,10 @@ class connect
         }
         $sql->close();
     }
+
+    protected function close(){
+        
+    }
 }
 
-//$con = new connect("localhost", 'root', '', 'test');
+//$con = new connect("localhost", 'root', '', 'rams', 'SELECT * FROM category');
